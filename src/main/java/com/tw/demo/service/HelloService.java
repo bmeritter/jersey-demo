@@ -1,9 +1,14 @@
 package com.tw.demo.service;
 
+import com.sun.org.apache.xpath.internal.operations.String;
+
 public class HelloService {
 
-    public String sayHello() {
+    public java.lang.String sayHello() {
         return "Hello, World!";
     }
 
+    public java.lang.String toHello(String name) {
+        return "hello ," + name;
+    }
 }
